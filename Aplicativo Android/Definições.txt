@@ -1,0 +1,10 @@
+Cliente para dispositivos móveis:
+
+Overview: Aplicativo de caronas projetado para o interior do estado do PR;
+
+
+cadastro =>
+informações do veículo =>
+anexar foto=>
+avisos =>
+chat =>

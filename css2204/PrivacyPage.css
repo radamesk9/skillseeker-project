@@ -1,0 +1,40 @@
+/*corpo da página*/
+
+body {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 50;
+    font-size: medium;
+    box-sizing: content-box;
+    background: linear-gradient(155deg, #8b1263, #5f0849, #047499);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-right: 75px;
+    color: honeydew;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    border-width: 1.5px;
+}
+
+
+/*lado de dentro do quadro*/
+
+.big-margin {
+    background: linear-gradient(155deg, rgb(71, 71, 71), rgb(20, 20, 20), rgb(59, 56, 56))
+}
+
+
+/* links do email */
+
+p a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    color: cornflowerblue;
+}

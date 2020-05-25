@@ -1,0 +1,260 @@
+/*Estágios -}
+ Webdesign: O Profissional que faz os layout utilizando linguagens html e css. Também poderá fazer o seu próprio design no ex: Fireworks e/ou Photoshop.
+
+Programador web: O Profissional que trabalhará as páginas htmls ficarem "Dinâmicas" ou seja, transformando por exemplo os formulários em html em formulários php e também a criação de bancos de dados para "comunicar" com as páginas dinâmicas.
+
+Analista de SEO: Profissional que otimiza o código script para os sites buscadores Google, Bing, Yahoo e outros
+
+Hospedagem de sites: Profissional que atuará com servidores, VPS, Clouds Servers e Dedicados.
+
+Marketing digital: Profissional que realizará o planejamento de web-marketing para desenvolver campanhas em redes sociais e redes de pesquisas. 
+}
+------------------------------------------------
+*Esquema de cores;
+//Azul
+//Roxo
+//Branco
+-------------------------------------------------
+
+Classe - Grupo de dados do Endereço;
+
+--------------------------------------------------------
+TELA DE LOGIN
+- login em cima e sign-in;{
+login
+{email e senha}
+
+or
+----------------------
+"Ainda não tem cadastro? Cadastre-se agora!"{
+
+Sign-in:
+Escolha as opções:
+CPF:
+senha:
+<logar com facebook>;
+<logar com gmail> };
+
+else{
+
+<Não é pessoa física? acesse como empresa:>{
+*ParametroCNPJ:
+senha: }
+    }
+};
+---------------------------------------------------------
+-------------------------------------
+
+****lista de parametros do website*****
+{
+- o site tem que oferecer inicialmente a tela de busca;
+seleção de Busca -> {Contratante -> Categoria
+				||->	Vendedor do Serviço -> Categoria
+				||-> Explorar o Mercado -> Categorias}
+}
+-------------------------------------
+Página Principal - elementos = {
+
+>Logo(Lateral superior Esquerda);
+
+>Login - Sign in(Lateral Superior direita){
+		if Login then call {insere email + senha};
+			else
+				Sign-in then call ParametroCPF*
+					if PessoaJuridica = ParametroCNPJ*; //a pessoa vai poder escolher se é CNPJ ou se é Pessoa Fisica na hora de poder se cadastrar.}
+};
+
+>Ramos ou Tags{ícones com links para onde o usuário quiser ir no site};
+
+>Explore - Barra de busca{barra de busca com auto-completar};
+
+------------------------------------------------FEITO-------------------------------------------------
+>Tags para busca;{ FEITO
+=> Desenvolvimento de software & Tecnplogia(counter);
+=> Textos & Tradução(counter);
+=> Marketing Digital (counter);
+=> Negócios(counter);
+=> Estilo de Vida(counter);
+=> Design Gráfico & desenvolvimento de sites(counter);
+=> Industria & Consultoria(counter);}
+---------------------------------------------------------------------------------------------------
+
+Rodapé
+>Explicar como o site funciona de forma rápida(máximo 3 passos);
+
+>Links internos e externos{
+=> Instagram(link);
+=> Twitter(Link);
+=> Facebook(Link);
+=> Pinterest(Link);
+=> LinkedIn(Link);
+=> };
+Empresas:
+Utilizando crowdsourcing, permite que potenciais empregadores publiquem trabalhos que os Freelancers podem se oferecer para concluir. 
+
+Freelancers:
+assim como Freelancers podem publicar os seus trabalhos e experi�ncias para conseguirem aumentar o seu portf�lio n�o s� no site como na vida profissional.
+
+>About;{
+- {...} é um site feito pra você que está procurando projetos de curto prazo, constrido especialmente para esse propósito, 
+
+
+}
+-------------------------------------
+*ParametroCPF - Cadastro
+{na tela de cadastro é incluido (
+Nome*(obrigatório - 2 campos - Nome e Sobrenome);
+CPF*(obrigatório);
+Número de celular*(obrigatório);
+Grupo Dados do Endereço*;{
+Logradouro*: acione o ícone seta.jpg e selecione o tipo de logradouro. Em seguida, informe o nome do logradouro (rua, avenida, servidão, etc.) do endereço para contato.
+Nº*: informe o número da casa/prédio referente ao endereço para contato.
+Complemento: se necessário, informe o complemento do endereço (nº do bloco/prédio, nº do apartamento/sala, etc).
+Bairro*: informe o nome do bairro do endereço para contato.
+Estado*: acione o ícone seta.jpg e, em seguida, selecione o estado.
+Cidade*: acione o ícone seta.jpg e, em seguida, selecione o município do endereço para contato.
+CEP*: informe o Código de Enderaçamento Postal (CEP).
+};
+E-mail*(obrigatório);
+senha(8 caracteres com letras e numeros no minimo)*;
+confirmação de senha(sem ctrl+V)*;
+Categorias de Jobs:
+Experiência: (opcional)*
+Tempo médio de entrega:(opcional);
+Acione o botão 'Salvar' para armazenar os dados no sistema.{
+=> um e-mail foi enviado para ativar a conta.};
+
+=> ativação de conta {usar o site};
+end;
+)}
+
+*ParametroCNPJ{
+Nome*(Obrigatório)
+CNPJ*:
+Telefone/Celular:*
+E-mail:*
+Categoria*:
+Grupo Dados do Endereço*;{
+Logradouro*: acione o ícone seta.jpg e selecione o tipo de logradouro. Em seguida, informe o nome do logradouro (rua, avenida, servidão, etc.) do endereço para contato.
+Nº*: informe o número da casa/prédio referente ao endereço para contato.
+Complemento: se necessário, informe o complemento do endereço (nº do bloco/prédio, nº do apartamento/sala, etc).
+Bairro*: informe o nome do bairro do endereço para contato.
+Estado*: acione o ícone seta.jpg e, em seguida, selecione o estado.
+Cidade*: acione o ícone seta.jpg e, em seguida, selecione o município do endereço para contato.
+CEP*: informe o Código de Enderaçamento Postal (CEP).
+}
+
+Adicionar Google Maps - Localização da empresa(ou busca automática);
+
+Acione o botão 'Salvar' para armazenar os dados no sistema.
+ativação de conta(por e-mail) => {usar o site};
+end;
+}
+-------------------------------------
+
+-------------------------------------
+
+Procurando/Contratando:
+Procurando > Categorias
+
+Contratando >
+Cadastro da empresa > Visivel para cadastrados apenas ou não(configurável no cadastro.);
+}
+
+
+
+Grupo Dados do Endereço:(logradouro, nro, complemento, bairro, estado, cidade, cep)*{
+Logradouro*: acione o ícone seta.jpg e selecione o tipo de logradouro. Em seguida, informe o nome do logradouro (rua, avenida, servidão, etc.) do endereço para contato.
+Nº*: informe o número da casa/prédio referente ao endereço para contato.
+Complemento: se necessário, informe o complemento do endereço (nº do bloco/prédio, nº do apartamento/sala, etc).
+Bairro*: informe o nome do bairro do endereço para contato.
+Estado*: acione o ícone seta.jpg e, em seguida, selecione o estado.
+Cidade*: acione o ícone seta.jpg e, em seguida, selecione o município do endereço para contato.
+CEP*: informe o Código de Enderaçamento Postal (CEP).
+}
+
+//Conseguir parcerias com outros sites
+//Udemy e outros nesse estilo.
+
+//Futuramente - <Forum>*/
+
+
+//o sistema começa com uma estrutura de fora pra dentro, 
+//primeiro são ajustadas as variáveis de fora, 
+//nome e senhacadastrado, 
+//pra serem interligados com as variaveis de dentro
+//login e senhainformado como visto na linha 190
+
+//Login
+--------------------------------------------------------------------------------------------------------------------------
+Tela inicial - Home;
+
+- Navbar com busca e login no site -> OK
+- Rolagem com imagens instigadoras e texto explicando o funcionamento do site ->
+- Segunda parte do site: Explicação dinâmica mais detalhada ->
+- Barra de busca; -> OK
+- Informações sobre o site, sobre, contato e etc...
+Detalhes pessoais:
+[empresa] valoriza a sua privacidade. Seus dados pessoais estão seguros conosco e nós nunca iremos compartilhar as suas informações com terceiros.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+- lazy loading encorporado pra melhorar o processamento;
+-----------------------------------------------------------
+
+Politica de acesso
+Procurar como Teste.com e substituir pelo nome final;
+/*
+Por favor, leia esta política de privacidade (a "Política") cuidadosamente para entender como usamos suas informações pessoais. 
+Se você não concordar com esta Política, sua escolha é não usar o site e os aplicativos móveis da Teste.com e seus sites, aplicativos, 
+serviços e bens relacionados ou qualquer outro site operado pela Teste.com que vincule a esta Política (o "Site") . 
+Ao acessar ou usar este site, você concorda com esta política. Esta política pode mudar de tempos em tempos; 
+Quaisquer alterações que fizermos nesta Política serão publicadas neste Site; 
+também podemos tomar outras medidas, na medida exigida pela lei aplicável, incluindo notificá-lo e / ou buscar seu consentimento explícito para alterações materiais. 
+As alterações a esta política são efetivas a partir da data indicada "Última atualização". 
+Além de onde solicitamos seu consentimento explícito, o uso contínuo do Site após a realização de alterações constituirá aceitação e concordância em vincular-se a essas alterações; 
+portanto, verifique a Política periodicamente para obter atualizações ou alterações.
+
+A versão curta
+Na Teste.com, nos preocupamos com a sua privacidade. Não vendemos ou alugamos suas informações pessoais a terceiros para fins de marketing direto sem o seu consentimento explícito. 
+Não divulgamos a terceiros, exceto conforme divulgado nesta Política ou exigido para fornecer a você os serviços do Site e aplicativos móveis e seus sites, 
+aplicativos, serviços e bens relacionados ou qualquer outro Site, ou seja, para permitir que você compre, vender, compartilhar as informações que deseja compartilhar no site; 
+contribuir no fórum; pagar por produtos; 
+publicar comentários e assim por diante; ou onde temos uma obrigação legal de fazê-lo.
+
+Coletamos informações que você nos fornece ou compartilha voluntariamente com outros usuários, 
+e também algumas informações técnicas gerais que são coletadas automaticamente por nossos sistemas, 
+como endereço IP, informações do navegador e cookies, para permitir uma melhor experiência do usuário e uma personalização mais pessoal. 
+experiência de navegação.
+
+Não compartilharemos as informações que você nos fornecer no processo de registro - incluindo suas informações de contato - 
+exceto conforme descrito nesta Política.
+
+As informações que você escolhe publicar no site (fotos, vídeos, texto, músicas, críticas, entregas) - 
+não são mais particulares, assim como qualquer informação publicada on-line.
+
+Informações técnicas coletadas por nossos sistemas ou sistemas de terceiros podem ser usadas automaticamente para operação, 
+otimização, análise, promoção de conteúdo e aprimoramento da experiência do usuário. 
+De acordo com a lei local aplicável, podemos usar suas informações para entrar em contato com você - para fornecer avisos relacionados a suas atividades 
+ou oferecer promoções e atualizações gerais, mas não permitiremos que nenhuma outra pessoa, incluindo vendedores e compradores, 
+entrem em contato com você, do que através do seu perfil de usuário no site, a não ser que você permita.
+
+Contact us
+Para exercer qualquer um dos seus direitos em conexão com suas informações pessoais, solicitamos que você abra um ticket de reclamação com o Cliente. 
+Inclua todos os detalhes relevantes, para que o seu ticket possa ser tratado corretamente. 
+Processaremos todas as solicitações de acordo com as leis locais e nossas políticas e procedimentos. 
+Se você não possui uma conta ativa da Teste.com, entre em contato conosco em privacy@teste.com.
+
+Se você tiver alguma dúvida (ou comentário) relacionada a esta Política, envie um email para nossa equipe em privacy@teste.com, 
+e faremos um esforço para responder dentro de um prazo razoável.
+
+...
+*/
+
+Open Souce Machine Learning => candidatos a implementação
+quando o site estiver concluido
+AI do Google
+TensorFlow
+https://towardsdatascience.com/10-must-try-open-source-tools-for-machine-learning-1c4420ef40df?gi=2f8fb1c529ad

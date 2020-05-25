@@ -1,0 +1,31 @@
+﻿Estruturar um Neg�cio com o Business Model Canvas
+
+Campanhas com sites parceiros e institui��es vinculadas - UTFPR, FADEP e demais faculdades da regi�o
+
+"spam" para empresas pra abocanhar o m�ximo de usu�rios possiveis, tanto CNPJ como CPF
+
+https://canvanizer.com/
+^ canvanizer � uma ferramenta pra gerar tanto modelos de neg�cios como gerenciamento de projetos por kanban e scrum
+
+Hoje em dia ficou mais fácil entrar em contato com investidores, pode ser feito até por e-mail, site e telefone. E, em alguns casos, os próprios fundos de investidores vão atrás das startups para fechar parcerias. Mas não se engane, você terá que ir atrás de investidores também. Existem também Bancos de investimentos, que focam suas atividades exclusivamente no financiamento do desenvolvimento de empresas e ajudam quem quer criar uma startup, como por exemplo o BTG Pactual.
+
+--
+Você provavelmente precisará de um site, de uma equipe de tecnologia, algum espaço de escritório, etc. Ou seja, precisará de dinheiro – como a maioria das empresas e empreendedores para financiar uma startup e fazer o seu negócio decolar. Afinal, nem sempre quem tem a ideia ou um projeto para ser colocado em prática tem recursos financeiros para empreender ou gerir essa ideia em longo prazo.
+
+- Investidores anjo: Esse tipo de investidor pode ajudar a sua empresa contribuindo com informações comerciais e conselhos e, geralmente, fazem suas escolhas baseadas em seus interesses pessoais e menos em análise de mercado.
+
+https://www.anjosdobrasil.net/about-us-in-english.html
+
+despesas fixas:
+2 setor programação -> 2300
+1 setor analise -> 2000
+1 setor comercial -> 2300
+1 sala comercial -> 1250
+1 setor financeiro -> 2300
+1 setor de RH - 2300
+em analise, pode aumentar
+equipamentos - 9 computadores(7 máquinas, 1 servidor, 1 minha)
+
+Despesas variaveis de luz, agua e internet.
+
+> somos um serviço

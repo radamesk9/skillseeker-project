@@ -1,0 +1,86 @@
+<html lang="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css2204/landingpage.css">
+    <link rel="stylesheet" href="css2204/navbar.css">
+    <script type="text/javascript" src="css2204/JQUERY2204.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
+
+    <title>SkillSeeker | Landing Page</title>
+</head>
+
+<body>
+
+    <html>
+
+    <Title>Landing Page</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="Home.html" class="home">Home</a>
+
+            <nav>
+                <ul>
+                    <li id="login">
+                        <a id="login-trigger" href="#">
+                            <span class="first">Login ▼</span>
+                        </a>
+                        <div id="login-content">
+                            <form>
+                                <fieldset id="inputs">
+                                    <input id="username" type="email" name="Email" placeholder="Your email address"
+                                        required>
+                                    <input id="password" type="password" name="Password" placeholder="Password"
+                                        required>
+                                </fieldset>
+                                <fieldset id="actions">
+                                    <input type="submit" id="submit" value="Log in">
+                                    <label>
+                                        <input type="checkbox" checked="checked">
+                                        Keep me signed in
+                                    </label>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </li>
+                    <li id="signup">
+                        <a href="Signup.html"><span class="first">Sign up FREE</span></a>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Descubra oportunidades.
+                </h1>
+                <h2 class="hero-subtitle">
+                    SkillSeeker disponibiliza as melhores vagas para freelancers da região, junte-se a nós e aproveite
+                    todas as oportunidades.
+                </h2>
+
+                <button href="Home.html" type="button" class="hero-button"> Teste Grátis
+                </button>
+            </div>
+        </section>
+
+
+    </body>
+    <script>
+        $(document).ready(function () {
+            $('#login-trigger').click(function () {
+                $(this).next('#login-content').slideToggle();
+                $(this).toggleClass('active');
+
+                if ($(this).hasClass('active')) $(this).find('span').html('Login &#x25B2;')
+                else $(this).find('span').html('Login &#x25BC;')
+            })
+        });
+    </script>
+
+    </html>

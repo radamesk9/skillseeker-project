@@ -1,0 +1,91 @@
+<html lang="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se | SkillSeeker</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css2204/signup.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <a class="Links" id="ForSignup"></a>
+        <a class="Links" id="ForLogin"></a>
+
+        <div class="content">
+            <!--FORMULÁRIO DE LOGIN-->
+            <div id="Login">
+                <form method="Post" action="">
+                    <h1>Login</h1>
+                    <p>
+                        <label for="NameLogin">Seu nome</label>
+                        <input id="NameLogin" name="NameLogin" required="required" type="text"
+                            placeholder="email@email.com" />
+                    </p>
+
+                    <p>
+                        <label for="EmailLogin">Seu e-mail</label>
+                        <input id="EmailLogin" name="EmailLogin" required="required" type="password"
+                            placeholder="Senha" />
+                    </p>
+
+                    <p>
+                        <input type="Checkbox" name="manterlogado" id="manterlogado" value="" />
+                        <label for="KeepLogged">Manter-me logado</label>
+                    </p>
+
+                    <p>
+                        <input type="Submit" value="Login" />
+                    </p>
+
+                    <p class="Link">
+                        Ainda não tem conta?
+                        <a href="#ForSignup">Cadastre-se</a>
+                    </p>
+                </form>
+            </div>
+
+            <!--FORMULÁRIO DE CADASTRO-->
+            <div id="Register">
+                <form method="Post" action="">
+                    <h1>Cadastro</h1>
+
+                    <p>
+                        <label for="RegistrationName">Nome</label>
+                        <input id="RegistrationName" name="RegistrationName" required="required" type="text"
+                            placeholder="Nome" />
+                    </p>
+
+                    <p>
+                        <label for="EmailRegister">E-mail</label>
+                        <input id="EmailRegister" name="EmailRegister" required="required" type="email"
+                            placeholder="Email@email.com" />
+                    </p>
+
+                    <p>
+                        <label for="PasswordRegister">Sua senha</label>
+                        <input id="PasswordRegister" name="PasswordRegister" required="required" type="password"
+                            placeholder="Senha de no mínimo 8 dígitos" />
+                    </p>
+
+                    <p>
+                        <input type="Submit" value="Cadastrar" />
+                    </p>
+
+                    <p class="Link">
+                        Já tem conta?
+                        <a href="#ForLogin"> Ir para Login </a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <a href="Home.html" class="float">
+        <i class="material-icons">home</i>
+    </a>
+
+</body>
+
+</html>

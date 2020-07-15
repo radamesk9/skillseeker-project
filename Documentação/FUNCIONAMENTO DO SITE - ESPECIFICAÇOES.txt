@@ -16,7 +16,7 @@ Marketing digital: Profissional que realizará o planejamento de web-marketing p
 //Branco
 -------------------------------------------------
 
-Classe - Grupo de dados do Endereço;
+Grupo de dados do Endereço;
 
 --------------------------------------------------------
 TELA DE LOGIN
@@ -67,6 +67,8 @@ Página Principal - elementos = {
 >Ramos ou Tags{ícones com links para onde o usuário quiser ir no site};
 
 >Explore - Barra de busca{barra de busca com auto-completar};
+Na barra de busca principal iremos colocar apenas os serviços básicos
+
 
 ------------------------------------------------FEITO-------------------------------------------------
 >Tags para busca;{ FEITO
@@ -201,7 +203,9 @@ Detalhes pessoais:
 
 --------------------------------------------------------------------------------------------------------------------------
 
-- lazy loading encorporado pra melhorar o processamento;
+- lazy loading encorporado pra melhorar o processamento de imagens;
+- Ajax encorporado pra melhorar o carregamento e processamento das divs do site;
+- PWA: trazer como se fosse um aplicativo pro celular, mas sem o uso do app.
 -----------------------------------------------------------
 
 Politica de acesso
@@ -258,3 +262,37 @@ quando o site estiver concluido
 AI do Google
 TensorFlow
 https://towardsdatascience.com/10-must-try-open-source-tools-for-machine-learning-1c4420ef40df?gi=2f8fb1c529ad
+
+
+---------------------------------------------------------------
+
+Nomes:
+SkillSeeker - ok
+Skill Finder
+Skill Hunter
+Skill Scouts
+
+------------------------------------------------
+Banco de dados não relacional - MongoDB
+db.createCollection(name, options)
+
+For instance, suppose you want to create a database named “Customers” to store customer information. You would then use the following code:
+
+db.createCollection(“Customers”)
+
+Notice the above code just creates the collection, but the options are left out. These options are optional for the collection command, but you might want to include a size for the database or even a maximum size. The following code is an example of setting a max size of 64KB:
+
+db.createCollection(“Customers”, max: 64 * 1024)
+
+Notice the 1024 is added, because the value is set in bytes. One issue to note when setting a size or a maximum size. When the size or maximum size is reached, MongoDB will start overwriting older documents. A document is a record in MongoDB, so this could be a major issue with setting database sizes.
+----------------------------------------------------
+
+Criação de restrições nas vagas para não cadastrados, isso irá obriga-los a criar uma conta e fazer as transações pelo sistema
+por exemplo: informações da empresa, nome da empresa e etc. apenas especificações de vaga.
+
+Vamos precisar de coluna de:
+- usuários
+- informações de empresas
+
+------------------------------------------------------------------
+AMAZON AWS - Possivel hospedagem

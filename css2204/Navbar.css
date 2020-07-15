@@ -1,12 +1,11 @@
 /*animation: letter-flicker 10s linear infinite;
 animation: border-flicker 15s linear forwards;*/
 
-
 /* Navbar container de forma geral */
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(0, 0, 0);
     font-family: sans-serif;
     font-weight: bold;
     height: fit-content;
@@ -17,37 +16,31 @@ animation: border-flicker 15s linear forwards;*/
     display: relative;
 }
 
-
-/* Links inside the navbar -> Home */
+/* Links inside the navbar -> Home, estilização da caixa de Home */
 
 .navbar a {
     float: left;
     font-size: 16px;
-    color: rgba(120, 0, 50, .5);
+    color: rgb(230, 0, 120);
     text-align: center;
     padding: 14px 40px;
     text-decoration: none;
-    border-radius: 8px;
-    border: 3px solid rgb(0, 180, 230);
-    box-shadow: 0 0 15px -1px rgb(0, 180, 230), 0 0 12px -1px rgb(0, 180, 230) inset;
+    border-radius: 5px;
+    box-shadow: 0 0 15px -1px rgb(0, 0, 0), 0 0 12px -1px rgb(0, 0, 0) inset;
     cursor: pointer;
     height: 53px;
+    margin-top: 22px;
 }
-
 
 /* Add a purple background color to navbar links on hover */
 
 .navbar a:hover {
     height: 53px;
-    background: rgb(15, 15, 15);
-    border: 3px solid rgb(0, 180, 230);
-    box-shadow: 0 0 15px -1px rgb(0, 180, 230), 0 0 12px -1px rgb(0, 180, 230) inset;
-    border-radius: 8px;
+    background: rgb(0, 0, 0);
+    border-radius: 2px;
 }
 
-
 /* Transições de cores do efeito Neon nos botões*/
-
 
 /*transições de texto*/
 
@@ -114,7 +107,6 @@ animation: border-flicker 15s linear forwards;*/
     }
 }
 
-
 /*transições de letras*/
 
 @keyframes letter-flicker {
@@ -171,7 +163,6 @@ animation: border-flicker 15s linear forwards;*/
         text-shadow: 0 0 15px rgb(230, 0, 120);
     }
 }
-
 
 /*transições de borda*/
 
@@ -234,7 +225,6 @@ animation: border-flicker 15s linear forwards;*/
     }
 }
 
-
 /* configurações gerais do lado direito da tela - login e cadastro */
 
 nav ul {
@@ -243,7 +233,7 @@ nav ul {
     list-style: none;
     position: relative;
     float: right;
-    background: #333;
+    background: rgb(0, 0, 0);
     border-radius: 8px;
     font-size: 16px;
     color: white;
@@ -252,8 +242,7 @@ nav ul {
     text-decoration: none;
 }
 
-
-/* tela de login - em baixo do botão de submit*/
+/* janela de login - em baixo do botão de submit*/
 
 nav li {
     float: left;
@@ -265,7 +254,6 @@ nav li {
     border-radius: 8 8px 8px 8;
 }
 
-
 /* cores do botão de login sem HOVER */
 
 nav #login {
@@ -273,11 +261,9 @@ nav #login {
     box-shadow: 1px 0 0 rgb(51, 51, 51);
 }
 
-
 /*mostra como vai aparecer a organização por DENTRO, na janela de login e cadastre-se*/
 
-nav #login-trigger,
-nav #signup a {
+nav #login-trigger, nav #signup a {
     display: inline-flex;
     *display: inline;
     *zoom: 1;
@@ -288,52 +274,45 @@ nav #signup a {
     color: rgb(255, 255, 255);
     text-shadow: 0 1px 0 rgb(51, 51, 51);
     border-radius: 8px, 8, 8, 8px;
+    border: solid rgb(0, 40, 70);
+    box-shadow: 0 0 15px -1px rgb(0, 40, 70), 0 0 12px -1px rgb(0, 40, 70) inset;
 }
 
-
-/* botão de cadastro */
+/* botão de cadastro - estilização */
 
 nav #signup a {
     border-radius: 8 8px 8px 8;
     color: rgba(120, 0, 50, .5);
-    border: 3px solid rgb(0, 180, 230);
-    box-shadow: 0 0 15px -1px rgb(0, 180, 230), 0 0 12px -1px rgb(0, 180, 230) inset
+    border: 3px solid rgb(0, 40, 70);
+    box-shadow: 0 0 15px -1px rgb(0, 40, 70), 0 0 12px -1px rgb(0, 40, 70) inset;
 }
 
-
-/* botão de login */
+/* botão de login - estilização */
 
 nav #login-trigger {
     border-radius: 8px 8 8 8px;
     color: rgba(120, 0, 50, .5);
-    animation: border-flicker 2s linear forwards;
+    animation: letter-flicker 3s linear infinite;
+    border: solid rgb(0, 40, 70);
 }
-
 
 /*animação da borda*/
 
-nav #signup:hover a,
-li #login-trigger:hover a,
-div #home a:hover {
-    animation: border-flicker 2s linear forwards;
-}
-
-
-/*animação principal do texto da navbar*/
-
-nav #signup:hover a,
-nav #login-trigger:hover,
-div a #home {
+nav #signup:hover a, li #login-trigger:hover a, div .home a:hover {
     animation: text-flicker 2s linear forwards;
 }
 
+/*animação principal do texto da navbar*/
+
+nav #signup:hover a, nav #login-trigger:hover, div a .home:hover {
+    animation: border-flicker 2s linear forwards;
+}
 
 /*animação das letras que piscam depois que termina a animação principal*/
 
 div:hover .first {
     animation: letter-flicker 3s linear infinite;
 }
-
 
 /* configurações do CONTEUDO das alinhamentos da caixa de login */
 
@@ -347,10 +326,9 @@ nav #login-content {
     background-image: linear-gradient(to top, rgb(255, 255, 255));
     padding: 15px;
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .9);
-    border: 1px solid rgb(0, 180, 230);
-    box-shadow: 0 0 15px -1px rgb(0, 180, 230), 0 0 12px -1px rgb(0, 180, 230) inset
+    border: 1px solid rgb(0, 40, 70);
+    box-shadow: 0 0 15px -1px rgb(0, 40, 70), 0 0 12px -1px rgb(0, 40, 70) inset;
 }
-
 
 /* configurações da lista de login - todos os itens */
 
@@ -358,7 +336,6 @@ nav li #login-content {
     right: 0;
     width: 250px;
 }
-
 
 /* espaços em branco pra inserir as informações - estilos */
 
@@ -372,7 +349,6 @@ nav li #login-content {
     box-shadow: 0 1px 1px #ccc inset;
 }
 
-
 /* foco das inputs pra inserir as informações, quando estão com o cursor em cima */
 
 #inputs input:focus {
@@ -382,14 +358,12 @@ nav li #login-content {
     box-shadow: 0 0 0 1px #a491e8 inset;
 }
 
-
 /* linha da checkbox do na tela de login rapido */
 
 #login #actions {
     margin: 10px 0 0 0;
     font-family: sans-serif;
 }
-
 
 /* configurações visuais do botão de submit information na tela de login*/
 
@@ -410,17 +384,14 @@ nav li #login-content {
     color: #fff;
 }
 
-
 /* configurações visuais do botão submit */
 
-#login #submit:hover,
-#login #submit:focus {
-    background-color: #1900ff;
+#login #submit:hover, #login #submit:focus {
+    background-color: #028dff;
     background-image: linear-gradient(to top, #3f3f3f, #303030);
     font-family: sans-serif;
     font-weight: bold;
 }
-
 
 /*  */
 
@@ -431,7 +402,6 @@ nav li #login-content {
     font-weight: bold;
 }
 
-
 /* altura da tela de login */
 
 #login label {
@@ -441,15 +411,13 @@ nav li #login-content {
     font-weight: bold;
 }
 
-
-/*  */
+/* posição da checkbox */
 
 #login label input {
     position: relative;
     top: 2px;
     right: 2px;
 }
-
 
 /* códigos de estilização da search bar */
 
@@ -465,10 +433,10 @@ input[type=text] {
     margin-top: 20px;
     background-color: rgb(148, 148, 148);
     border-radius: 15px;
-    border-color: #4818ce;
-    animation: text-flicker 20s linear forwards;
+    border-color: #028dff;
+    display: inline-block;
+    box-shadow: 0 0 15px -1px rgb(0, 40, 70), 0 0 12px -1px rgb(0, 40, 70) inset;
 }
-
 
 /* When the input field gets focus, change its width to 65% */
 
@@ -477,7 +445,7 @@ input[type=text]:focus {
     color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-weight: bold;
-    animation: text-flicker 2s linear forwards;
+    display: inline-block;
 }
 
 input[type=text]:hover {

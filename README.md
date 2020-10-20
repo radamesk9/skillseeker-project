@@ -1,6 +1,7 @@
 # SkillSeeker-Project
  
- My site project, 
- -> maturing process, won't stop til we're on top.
- region southwest only, locals only.
+Skillseeker Project.
+
+ -> Processo de maturação, verificando requisitos, pesquisando métodos e aprendendo novas tecnologias
+ -> Refatoração de código: js, html e css;
  

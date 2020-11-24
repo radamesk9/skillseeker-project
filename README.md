@@ -3,5 +3,8 @@
 Skillseeker Project.
 
  -> Processo de Abstração, verificando requisitos, pesquisando métodos e aprendendo novas tecnologias
- -> Refatoração de código: js, html e css;
+ 
+ -> Refatoração de códigos: js, html e css;
+ 
+ x)
  
